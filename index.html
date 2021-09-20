@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="dist/css/style.css" />
-    <link rel="shortcut icon" href="dist/img/5027820_dollar_investment_money_icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="dist/img/5027820_dollar_investment_money_icon.png" type="image/x-icon">   
   </head>
   <body>
     <header>
@@ -23,12 +23,12 @@
       </div>
       <div class="secondary">
         <label for="date">Date:</label>
-        <input type="date" />
+        <input type="date" id="expense__date" />
         <label for="amount">Enter Amount:</label>
-        <input type="number" placeholder="Excepts Numeric Digits Only" />
+        <input type="number" id="expense__amount" placeholder="Excepts Numeric Digits Only" />
       </div>
-      <div class="btn__primary">
-        <button class="btn__primary">Add Expense</button>
+      <div class="primary">
+        <button id="btn__primary">Add Expense</button>
       </div>
     </main>
     <div class="container">
@@ -45,6 +45,6 @@
         <li>14,50€</li>
       </div>
     </div>
-    <script src="dist/js/script.js"></script>
+    <script src="dist/js/script.js" defer ></script>    
   </body>
 </html>
