@@ -6,6 +6,7 @@
 }
 :root{
     --main-color: rgb(128, 23, 189);
+    --large-font: 18px;
 }
 body{
     margin: 1.5rem;
@@ -23,13 +24,15 @@ header{
 .input__name{
     display: flex;
     justify-content: center;
+    font-size: var(--large-font)
    
 }
 .secondary{
     display: flex;
     justify-content: center;
+    font-size: var(--large-font)
 }
-.btn__primary{
+.primary{
     display: flex;
     justify-content: center;   
      margin-top: 10px;
@@ -61,8 +64,10 @@ input{
 h4{
     padding: 10px 0px;
     font-weight: bolder;
-   
+    font-size: var(--large-font)
 }
 li {
     list-style: none;
+    font-weight: bold;
+    padding: 10px 5px;
 }
