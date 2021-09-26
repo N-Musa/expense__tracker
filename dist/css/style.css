@@ -43,6 +43,10 @@ button{
     background-color: var(--main-color);
     color: white;
     border-radius: 0.75rem;
+    transition: 0.3s;
+}
+button:hover{
+    letter-spacing: 3px;
 }
 label{
     padding: 10px 17px;
