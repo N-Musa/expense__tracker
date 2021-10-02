@@ -8,6 +8,10 @@
     --main-color: rgb(128, 23, 189);
     --large-font: 18px;
 }
+body{
+    background-color: #fcfaec;
+    color: black;
+}
 main > *{
     margin: 2rem;
     text-transform: capitalize;
@@ -24,6 +28,7 @@ header{
 }
 .secondary{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: var(--large-font)
 }
@@ -50,6 +55,7 @@ input{
     width: 30%;
     border-radius: 0.3rem;
     border: none;
+    background-color: rgb(231, 231, 231);
 }
 /* Entry Section */
 .container{
