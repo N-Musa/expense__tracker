@@ -7,19 +7,20 @@
     const node = document.createElement("li");
     node.innerText = expDescrip.value;
     area.appendChild(node);
-    expDescrip.value = ""; 
+    expDescrip.value = ''; 
     //date
     const dateDescrip = document.getElementById("expense__date");
     const area2 = document.querySelector(".entry__date");
     const node2 = document.createElement("li");
     node2.innerText = dateDescrip.value;
     area2.appendChild(node2)
-    dateDescrip.value = "";
+    dateDescrip.value = '';
     //amount
-    const amountDescrip = document.getElementById("entry__amount");
+    const amountDescrip = document.getElementById("expense__amount");
     const area3 = document.querySelector(".entry__amount");
-    
+    const node3 = document.createElement("li");
+    node3.innerText =amountDescrip.value;
+    area3.appendChild(node3);
+    amountDescrip.value = ''; 
     })
-   
-
 })()
