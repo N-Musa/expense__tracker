@@ -8,24 +8,19 @@
     --main-color: rgb(128, 23, 189);
     --large-font: 18px;
 }
-body{
-    margin: 1.5rem;
-}
 main > *{
     margin: 2rem;
     text-transform: capitalize;
     font-weight: bolder;
 }
-
 header{
-    display: flex;
-    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
 }
 .input__name{
     display: flex;
     justify-content: center;
-    font-size: var(--large-font)
-   
+    font-size: var(--large-font)  
 }
 .secondary{
     display: flex;
@@ -60,6 +55,7 @@ input{
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     box-shadow: 1px 1px 1px 1px gray;
 }
 .container > *{
@@ -68,10 +64,14 @@ input{
 h4{
     padding: 10px 0px;
     font-weight: bolder;
-    font-size: var(--large-font)
+    border-bottom: thin solid var(--main-color);
+    font-size: var(--large-font); 
 }
 li {
     list-style: none;
     font-weight: bold;
     padding: 10px 5px;
+}
+.entry__amount > li::after {
+   content: "€";
 }
