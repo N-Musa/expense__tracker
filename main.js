@@ -1,7 +1,3 @@
-import './style.css'
-
-
-   
 (function appendNode(){
   const btn = document.querySelector(".btn__primary")
   btn.addEventListener("click", () => {
